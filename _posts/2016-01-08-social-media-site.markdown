@@ -11,6 +11,8 @@ During my last year of Secondary School I undertook my Coursework Project/Disser
 
 To complete this task I used a range of languages and skills. This included HTML, CSS, PHP, SQL, jQuery and Javascript. The project was required to go through the complete design process including full documentation, designing and testing. Surveys were carried out to gather user requirements.
 
+To check out the full project and solution, [click here][github-repo] to see the GitHub repository. 
+
 
 ## Overview
 
@@ -420,3 +422,4 @@ The functions for votesUp and downVote work by taking the id from the div the vi
 
 
 [youtube-link]:   www.youtube.com
+[github-repo]: https://github.com/rossmuego/SocialMediaSite
