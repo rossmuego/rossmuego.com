@@ -19,13 +19,13 @@ I incorporated a database into my solution in order to store bookings, customers
 
 This entire solution was programmed in C# with the database queries being carried out using SQL. I learnt a large number of things about the C# language during this process as well as how to implement an SQL database into my program and how to handle the data provided by it.
 
+I also incorporated 2 popular design patterns into my solution; Facade
+and Singleton.
 # Database Structure
 
 In total there are 6 tables being used in the solution. Below is an ER diagram detailing the relationship between them along with their columns.
 
 ![Database]({{ "/images/posts/holiday-system/"}})
-
-
 
 
 # Adding Bookings
