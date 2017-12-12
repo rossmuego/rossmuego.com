@@ -180,5 +180,5 @@ For guests it is slightly different since there are potentially a number of gues
 
 
 
-[solution-link]:  www.
-[github-link]:  www.github.com/rossmuego
+[solution-link]:  https://github.com/rossmuego/NapierHolidays
+[github-link]:  https://www.github.com/rossmuego
