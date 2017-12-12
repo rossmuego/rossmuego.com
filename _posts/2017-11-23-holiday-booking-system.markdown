@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Holiday Booking System"
+title: "Holiday Booking System (Post WIP)"
 date: "2017-11-23 18:16:00 +0000"
 tags: C#
       SQL
-published: false
+published: true
 
 ---
 The largest project that I have undertaken yet, a booking system for a holiday resort. There were a number of different features requested be built into this system along with a number of basic tasks it must perform. This included:
