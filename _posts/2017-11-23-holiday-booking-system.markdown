@@ -181,9 +181,9 @@ For guests it is slightly different since there are potentially a number of gues
 
 # Updating Bookings/Customers/Guests
 
-The final critical part of the solution is the ability to update the above entities. In order to do this, I simply use an SQL update statement to update the corresponding entity with the corresponding IDs. For example, updating a guest would require a quest id, updating a booking would only require a booking id and customer would only require a customer id. 
+The final critical part of the solution is the ability to update the above entities. In order to do this, I simply use an SQL update statement to update the corresponding entity with the corresponding IDs. For example, updating a guest would require a quest id, updating a booking would only require a booking id and customer would only require a customer id.
 
-```SQL
+```sql
 UPDATE Bookings SET arrivalDate = @arrival, departureDate = @depart, chalet_id = @chalet, breakfast = @bfast, evening = @evening, total_guests = @totalguests WHERE booking_id = @id
 
 UPDATE Customers SET name = @name, address = @address WHERE customer_id = @id
