@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Holiday Booking System (Post WIP)"
+title: "Holiday Booking System"
 date: "2017-11-23 18:16:00 +0000"
 tags: C#
       SQL
@@ -179,6 +179,17 @@ The same is done for customer, with the method 'SearchCustomer' also being in th
 For guests it is slightly different since there are potentially a number of guests for each booking. The method getGuest is invoked, which in the data layer adds a number of string arrays to an ArrayList and returns that. This way, we can loop through the ArratList using foreach, then for each string array within that list assign it to a guest object and add that guest to a List<Guest> which is then added to our booking ArrayList.
 
 
+# Updating Bookings/Customers/Guests
+
+The final critical part of the solution is the ability to update the above entities. In order to do this, I simply use an SQL update statement to update the corresponding entity with the corresponding IDs. For example, updating a guest would require a quest id, updating a booking would only require a booking id and customer would only require a customer id. 
+
+```SQL
+UPDATE Bookings SET arrivalDate = @arrival, departureDate = @depart, chalet_id = @chalet, breakfast = @bfast, evening = @evening, total_guests = @totalguests WHERE booking_id = @id
+
+UPDATE Customers SET name = @name, address = @address WHERE customer_id = @id
+
+UPDATE Guests SET name = @name, passport_num = @ppnum, age = @age WHERE guest_id = @id
+```
 
 [solution-link]:  https://github.com/rossmuego/NapierHolidays
 [github-link]:  https://www.github.com/rossmuego
