@@ -11,7 +11,7 @@ During my last year of Secondary School I undertook my Coursework Project/Disser
 
 To complete this task I used a range of languages and skills. This included HTML, CSS, PHP, SQL, jQuery and Javascript. The project was required to go through the complete design process including full documentation, designing and testing. Surveys were carried out to gather user requirements.
 
-To check out the full project and solution, [click here][github-repo] to see the GitHub repository. 
+To check out the full project and solution, [click here][github-repo] to see the GitHub repository.
 
 
 ## Overview
@@ -21,8 +21,6 @@ The site allowed users to sign up for the website with a unique username along w
 ## Login/Registration
 
 The users were promoted to login to the site or signup when the first arrived on the site. This information would ultimately be stored in a 'Users' table in a database. It requires the user to enter their name, a username, email a password and a password confirmation.
-
-![LoginScreen]({{ "/images/posts/social-media/loginscreen.png"}})
 
 **Login PHP**
 
