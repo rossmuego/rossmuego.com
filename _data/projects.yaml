@@ -12,3 +12,18 @@
   url: https://github.com/rossmuego/dashbonzo
   image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
   completed: false
+
+- title: Holiday Booking System
+  url: https://github.com/rossmuego/NapierHolidays
+  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
+  completed: true
+
+- title: Social Media Site
+  url: https://github.com/rossmuego/SocialMediaSite
+  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
+  completed: true
+
+- title: Blog Site
+  url: https://github.com/rossmuego/muego_ross_008101_coursework2
+  image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
+  completed: true
