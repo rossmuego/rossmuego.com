@@ -3,6 +3,9 @@ sitemap: false
 ---
 
 @import "variables";
+=======
+--- sitemap: false --- @import "variables";
+>>>>>>> parent of 39e4a1c... css fix
 @import "reset";
 @import "base";
 @import "site";
