@@ -8,4 +8,4 @@ layout: home
 
 Curently participating in a year in industry at [Lighthouse Systems](http://www.lighthousesystems.com).
 
-Graduation 2020.
+Graduate 2020.
