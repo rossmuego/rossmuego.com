@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site
 title: Ross Muego
 description: Software Engineering
@@ -24,10 +25,40 @@ kramdown:
 sass:
   sass_dir: assets/_sass
   style: compressed
+=======
+# Site settings
+title: 'Ross Muego'
+description: 'Computer Science Student'
+url: 'rossmuego.com'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-# Google Analytics
-#google-analytics: UA-XXXXX-Y
+author:
+  name: 'Ross Muego'
+  email: rossmuego@gmail.com
+  twitter_username: rossmuego
+  facebook_username: ross.muego
+  github_username:  rossmuego
+  linkedin_username:  ross-muego-523232140
 
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+>>>>>>> parent of 076c16e... changed theme
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+<<<<<<< HEAD
 # Social Links
 email: rossmuego@gmail.com
 #google.plus:        username
@@ -53,13 +84,19 @@ linkedin: ross-muego-523232140
 #xmpp:              username@server.com
 #hackernews:        username
 #behance:           username
+=======
+sass:
+    sass_dir: _sass
+    style: compressed
+>>>>>>> parent of 076c16e... changed theme
 
-# Gems
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
+<<<<<<< HEAD
 # Exclude list
 include: [_pages]
 exclude:
@@ -76,3 +113,7 @@ exclude:
     .sass-cache,
     .DS_Store,
   ]
+=======
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+>>>>>>> parent of 076c16e... changed theme
