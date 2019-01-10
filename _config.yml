@@ -1,5 +1,5 @@
 # Site
-title: Ross Muego
+title: Halve
 description: Stylish, Two-Column Jekyll Theme
 url: www.rossmuego.com
 logo: halve.png # Site logo
@@ -29,13 +29,13 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-email: rossmuego@gmail.com
+#email:             email
 #google.plus:        username
-#twitter: username
+twitter: username
 #facebook:           username
-github: rossmuego
-#stackoverflow: 123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin: ross-muego-523232140
+github: username
+stackoverflow: 123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
 #xing:              username
 #instagram:          username
 #lastfm:            username
@@ -52,7 +52,7 @@ linkedin: ross-muego-523232140
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-#behance: username
+behance: username
 
 # Gems
 gems:
