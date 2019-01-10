@@ -2,7 +2,7 @@
 layout: post
 title: "Weblog - July"
 date: 2018-07-29
-excerpt: "Stylish, two-column Jekyll theme for your blog."
+excerpt: "First blog post for my weblog detailing my 3rd year placement."
 tag:
   - blog
   - weblog
