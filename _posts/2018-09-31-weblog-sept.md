@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Weblog - August"
+title: "Weblog - September"
 date: 2018-09-31
 excerpt: "Blog entry for the month of September."
 tag:
