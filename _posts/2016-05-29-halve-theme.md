@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Halve Jekyll Theme"
-date:   2016-05-29
+title: "Halve Jekyll Theme"
+date: 2016-05-29
 excerpt: "Stylish, two-column Jekyll theme for your blog."
 tag:
-- jekyll 
-- halve
-- blog
-- vangeltzo
-- theme
-- vangelis
+  - jekyll
+  - halve
+  - blog
+  - vangeltzo
+  - theme
+  - vangelis
 ---
 
-<a href="{{ site.url }}/images/halve-home-image.png"><img src="{{ site.url }}/images/halve-home-image.png" alt="Home Page of Halve"></a>  
+<a href="{{ site.url }}/images/halve-home-image.png"><img src="{{ site.url }}/images/halve-home-image.png" alt="Home Page of Halve"></a>
 
 <center><b>Halve</b> is a stylish, two-column jekyll theme.</center><br>
      
@@ -37,25 +37,27 @@ If you want to make a **Project Page**, you have to use `gh-pages` branch. For *
 ## Preview
 
 {% capture images %}
-	{{ site.url }}/images/halve-home-image.png
-	{{ site.url }}/images/post-image-halve-1.png
-	{{ site.url }}/images/post-image-halve-2.png
+{{ site.url }}/images/halve-home-image.png
+{{ site.url }}/images/post-image-halve-1.png
+{{ site.url }}/images/post-image-halve-2.png
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Halve Theme" cols=3 %}
 
 {% capture images %}
-	{{ site.url }}/images/post-image-halve-3.png
-	{{ site.url }}/images/post-image-halve-6.png
-	{{ site.url }}/images/post-image-halve-4.png
+{{ site.url }}/images/post-image-halve-3.png
+{{ site.url }}/images/post-image-halve-6.png
+{{ site.url }}/images/post-image-halve-4.png
 {% endcapture %}
 {% include gallery images=images caption="Mobile view of Halve Theme" cols=3 %}
-      
-See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.      
+
+See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.
 
 ## Site Setup
-A quick checklist of the files you’ll want to edit to get up and running.    
+
+A quick checklist of the files you’ll want to edit to get up and running.
 
 ### Site Wide Configuration
+
 `_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each if needed:
 
 #### title
@@ -70,7 +72,7 @@ The description to use for meta tags and homepage.
 
 #### url
 
-Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
+Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. _Don't include a trailing `/`_.
 
 Examples:
 
@@ -82,16 +84,18 @@ url:
 {% endhighlight %}
 
 #### logo
+
 Your site's logo. It will be shown on homepage. Also used for twitter meta tags.
 
 #### background
+
 Here we will set images for left block. Example:
 
 ```
 background:
   homepage: images/home.png
   post-list: images/unsplash-image-10.jpg
-  default-post: images/unsplash-gallery-image-3.jpg 
+  default-post: images/unsplash-gallery-image-3.jpg
 ```
 
 <dl>
@@ -110,6 +114,7 @@ background:
 To set what image links appear in the overlay menu edit `_data/projects.yaml`. Use the following format to set the URL, title, image and project status for as many links as you'd like. If you set `completed` to `false` like `completed: false`, it won't be clickable until you set it true like `completed: true`
 
 {% highlight yaml %}
+
 - title: Moon Jekyll Theme
   url: http://taylantatli.me/Moon
   image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
@@ -134,7 +139,7 @@ To set what image links appear in the overlay menu edit `_data/projects.yaml`. U
   url: http://taylantatli.me/StartPage/
   image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
   completed: false
-{% endhighlight %}
+  {% endhighlight %}
 
 ---
 
@@ -150,8 +155,9 @@ You can set left block image per post. Just add `image: some link` to your post'
 image: /assets/img/some-image.png
 or
 image: http://example.com/some-image.png
-```    
- This also will be used for twitter card:
+```
+
+This also will be used for twitter card:
 
 ![Halve Twitter Card]({{ site.url }}/images/post-image-halve-5.png)
 
