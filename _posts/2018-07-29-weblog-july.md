@@ -11,7 +11,7 @@ tag:
 
 I am kicking off my weblog for my third year placement at the end of July. I will make an attempt to make a weblog post each month, and they will be posted on this site. I decided to post monthly as I will be able to reflect more on the bigger moments that happen during my time, rather than creating a lot of smaller blog posts that are not meaningful or filled with unimportant information.
 
-## July - First Month
+# July - First Month
 
 So this month has been the first of many working at Lighthouse Systems. I started out by giving a short presentation on myself, as well as listening to presentations about other members of staff that will be taking the training. We were also introduced to our mentors, who we can go to with any problems or concerns, and done some fun activities to get to know some more about the company and its policies etc.
 
