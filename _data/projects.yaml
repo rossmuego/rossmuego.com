@@ -1,34 +1,3 @@
-<<<<<<< HEAD
-- title: Philips Hue Controller
-  url: https://github.com/rossmuego/MenuLightBar
-  image: http://taylantatli.me/Halve/images/halve-home-image.png
-  completed: false
-
-- title: Cryptocurrency Tracker
-  url: https://github.com/rossmuego/crypto-tracker
-  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-  completed: false
-
-- title: Monzo Online Spending
-  url: https://github.com/rossmuego/dashbonzo
-  image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
-  completed: false
-
-- title: Holiday Booking System
-  url: https://github.com/rossmuego/NapierHolidays
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
-  completed: true
-
-- title: Social Media Site
-  url: https://github.com/rossmuego/SocialMediaSite
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
-  completed: true
-
-- title: Blog Site
-  url: https://github.com/rossmuego/muego_ross_008101_coursework2
-  image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
-  completed: true
-=======
 - title: Halve Jekyll Theme
   url: http://taylantatli.me/Halve
   image: http://taylantatli.me/Halve/images/halve-home-image.png
@@ -58,4 +27,3 @@
   url: http://taylantatli.me/StartPage/
   image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
   completed: false
->>>>>>> 076c16e... changed theme
