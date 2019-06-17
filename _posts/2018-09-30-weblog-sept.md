@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Weblog - September"
-date: 2018-09-31
-excerpt: "Blog entry for the month of September."
+title: 'Weblog - September'
+date: 2018-09-30
+excerpt: 'Blog entry for the month of September.'
 tag:
   - blog
   - weblog
@@ -17,8 +17,7 @@ September has been a fun month for me. I have finally finished my training, had 
 
 So now that I am fully trained up, I am working full time in the office. I was much to my delight put in the development team when I finished my training, which was what I was hoping for. This has meant however that I have had to learn a lot of things that were not a part of the training since the training was mainly focused on the Implementation/Support teams.
 
-The main differences between the Development and Implementation teams are how our task system works. The impli
-ementation team use a custom task solution developed by us internally, whereas the development team use Microsofts TFS system.
+The main differences between the Development and Implementation teams are how our task system works. The implementation team use a custom task solution developed by us internally, whereas the development team use Microsofts TFS system.
 
 TFS is the system where we track our sprints, our tasks, work needing done, work that is done, pull requests and pretty much anything you can think of that you would need to develop software. I have had to learn about things like Acceptance Criteria, Test Cases, the backlog, as well as all of the SCRUM meetings we have as part of our sprints.
 
